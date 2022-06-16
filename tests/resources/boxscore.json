@@ -1,0 +1,3500 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2021. All Rights Reserved.",
+  "teams" : {
+    "away" : {
+      "team" : {
+        "id" : 12,
+        "name" : "Carolina Hurricanes",
+        "link" : "/api/v1/teams/12"
+      },
+      "teamStats" : {
+        "teamSkaterStats" : {
+          "goals" : 4,
+          "pim" : 6,
+          "shots" : 31,
+          "powerPlayPercentage" : "0.0",
+          "powerPlayGoals" : 0.0,
+          "powerPlayOpportunities" : 3.0,
+          "faceOffWinPercentage" : "50.7",
+          "blocked" : 15,
+          "takeaways" : 9,
+          "giveaways" : 7,
+          "hits" : 17
+        }
+      },
+      "players" : {
+        "ID8478904" : {
+          "person" : {
+            "id" : 8478904,
+            "fullName" : "Steven Lorentz",
+            "link" : "/api/v1/people/8478904",
+            "firstName" : "Steven",
+            "lastName" : "Lorentz",
+            "primaryNumber" : "78",
+            "birthDate" : "1996-04-13",
+            "currentAge" : 24,
+            "birthCity" : "Kitchener",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 4\"",
+            "weight" : 206,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "78",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8473533" : {
+          "person" : {
+            "id" : 8473533,
+            "fullName" : "Jordan Staal",
+            "link" : "/api/v1/people/8473533",
+            "firstName" : "Jordan",
+            "lastName" : "Staal",
+            "primaryNumber" : "11",
+            "birthDate" : "1988-09-10",
+            "currentAge" : 32,
+            "birthCity" : "Thunder Bay",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 4\"",
+            "weight" : 220,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : true,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "11",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "15:45",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 2,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 2,
+              "faceOffPct" : 52.38,
+              "faceOffWins" : 11,
+              "faceoffTaken" : 21,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : -1,
+              "evenTimeOnIce" : "13:42",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "2:03"
+            }
+          }
+        },
+        "ID8476869" : {
+          "person" : {
+            "id" : 8476869,
+            "fullName" : "Brady Skjei",
+            "link" : "/api/v1/people/8476869",
+            "firstName" : "Brady",
+            "lastName" : "Skjei",
+            "primaryNumber" : "76",
+            "birthDate" : "1994-03-26",
+            "currentAge" : 26,
+            "birthCity" : "Lakeville",
+            "birthStateProvince" : "MN",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 3\"",
+            "weight" : 210,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "76",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "20:05",
+              "assists" : 1,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 2,
+              "plusMinus" : 3,
+              "evenTimeOnIce" : "18:10",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "1:55"
+            }
+          }
+        },
+        "ID8477938" : {
+          "person" : {
+            "id" : 8477938,
+            "fullName" : "Haydn Fleury",
+            "link" : "/api/v1/people/8477938",
+            "firstName" : "Haydn",
+            "lastName" : "Fleury",
+            "primaryNumber" : "4",
+            "birthDate" : "1996-07-08",
+            "currentAge" : 24,
+            "birthCity" : "Carlyle",
+            "birthStateProvince" : "SK",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 3\"",
+            "weight" : 208,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "4",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "16:12",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 1,
+              "evenTimeOnIce" : "14:56",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "1:16"
+            }
+          }
+        },
+        "ID8477998" : {
+          "person" : {
+            "id" : 8477998,
+            "fullName" : "Warren Foegele",
+            "link" : "/api/v1/people/8477998",
+            "firstName" : "Warren",
+            "lastName" : "Foegele",
+            "primaryNumber" : "13",
+            "birthDate" : "1996-04-01",
+            "currentAge" : 24,
+            "birthCity" : "Markham",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 2\"",
+            "weight" : 198,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "13",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "13:19",
+              "assists" : 0,
+              "goals" : 1,
+              "shots" : 2,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 1,
+              "giveaways" : 2,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "12:11",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "1:08"
+            }
+          }
+        },
+        "ID8478427" : {
+          "person" : {
+            "id" : 8478427,
+            "fullName" : "Sebastian Aho",
+            "link" : "/api/v1/people/8478427",
+            "firstName" : "Sebastian",
+            "lastName" : "Aho",
+            "primaryNumber" : "20",
+            "birthDate" : "1997-07-26",
+            "currentAge" : 23,
+            "birthCity" : "Rauma",
+            "birthCountry" : "FIN",
+            "nationality" : "FIN",
+            "height" : "6' 0\"",
+            "weight" : 176,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "20",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "16:29",
+              "assists" : 1,
+              "goals" : 2,
+              "shots" : 5,
+              "hits" : 2,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 35.71,
+              "faceOffWins" : 5,
+              "faceoffTaken" : 14,
+              "takeaways" : 2,
+              "giveaways" : 0,
+              "shortHandedGoals" : 1,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 3,
+              "evenTimeOnIce" : "12:53",
+              "powerPlayTimeOnIce" : "2:47",
+              "shortHandedTimeOnIce" : "0:49"
+            }
+          }
+        },
+        "ID8475799" : {
+          "person" : {
+            "id" : 8475799,
+            "fullName" : "Nino Niederreiter",
+            "link" : "/api/v1/people/8475799",
+            "firstName" : "Nino",
+            "lastName" : "Niederreiter",
+            "primaryNumber" : "21",
+            "birthDate" : "1992-09-08",
+            "currentAge" : 28,
+            "birthCity" : "Chur",
+            "birthCountry" : "CHE",
+            "nationality" : "CHE",
+            "height" : "6' 2\"",
+            "weight" : 218,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "21",
+          "position" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "14:16",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "11:03",
+              "powerPlayTimeOnIce" : "3:13",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8476921" : {
+          "person" : {
+            "id" : 8476921,
+            "fullName" : "Jordan Martinook",
+            "link" : "/api/v1/people/8476921",
+            "firstName" : "Jordan",
+            "lastName" : "Martinook",
+            "primaryNumber" : "48",
+            "birthDate" : "1992-07-25",
+            "currentAge" : 28,
+            "birthCity" : "Brandon",
+            "birthStateProvince" : "MB",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 0\"",
+            "weight" : 196,
+            "active" : true,
+            "alternateCaptain" : true,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "48",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "12:54",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 2,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 0.0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 2,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "11:14",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "1:40"
+            }
+          }
+        },
+        "ID8479987" : {
+          "person" : {
+            "id" : 8479987,
+            "fullName" : "Morgan Geekie",
+            "link" : "/api/v1/people/8479987",
+            "firstName" : "Morgan",
+            "lastName" : "Geekie",
+            "primaryNumber" : "43",
+            "birthDate" : "1998-07-20",
+            "currentAge" : 22,
+            "birthCity" : "Strathclair",
+            "birthStateProvince" : "MB",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 3\"",
+            "weight" : 192,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "43",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "12:51",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 75.0,
+              "faceOffWins" : 6,
+              "faceoffTaken" : 8,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "9:16",
+              "powerPlayTimeOnIce" : "3:04",
+              "shortHandedTimeOnIce" : "0:31"
+            }
+          }
+        },
+        "ID8475222" : {
+          "person" : {
+            "id" : 8475222,
+            "fullName" : "Sami Vatanen",
+            "link" : "/api/v1/people/8475222",
+            "firstName" : "Sami",
+            "lastName" : "Vatanen",
+            "primaryNumber" : "45",
+            "birthDate" : "1991-06-03",
+            "currentAge" : 29,
+            "birthCity" : "Jyväskylä",
+            "birthCountry" : "FIN",
+            "nationality" : "FIN",
+            "height" : "5' 10\"",
+            "weight" : 185,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "45",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "17:34",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 2,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : -1,
+              "evenTimeOnIce" : "14:32",
+              "powerPlayTimeOnIce" : "3:02",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8479402" : {
+          "person" : {
+            "id" : 8479402,
+            "fullName" : "Jake Bean",
+            "link" : "/api/v1/people/8479402",
+            "firstName" : "Jake",
+            "lastName" : "Bean",
+            "primaryNumber" : "24",
+            "birthDate" : "1998-06-09",
+            "currentAge" : 22,
+            "birthCity" : "Calgary",
+            "birthStateProvince" : "AB",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 1\"",
+            "weight" : 186,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "24",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8478056" : {
+          "person" : {
+            "id" : 8478056,
+            "fullName" : "Clark Bishop",
+            "link" : "/api/v1/people/8478056",
+            "firstName" : "Clark",
+            "lastName" : "Bishop",
+            "primaryNumber" : "64",
+            "birthDate" : "1996-03-29",
+            "currentAge" : 24,
+            "birthCity" : "St. John's",
+            "birthStateProvince" : "NL",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 1\"",
+            "weight" : 199,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "64",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8477981" : {
+          "person" : {
+            "id" : 8477981,
+            "fullName" : "Roland McKeown",
+            "link" : "/api/v1/people/8477981",
+            "firstName" : "Roland",
+            "lastName" : "McKeown",
+            "primaryNumber" : "55",
+            "birthDate" : "1996-01-20",
+            "currentAge" : 24,
+            "birthCity" : "Listowel",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 1\"",
+            "weight" : 195,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "55",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476934" : {
+          "person" : {
+            "id" : 8476934,
+            "fullName" : "Brock McGinn",
+            "link" : "/api/v1/people/8476934",
+            "firstName" : "Brock",
+            "lastName" : "McGinn",
+            "primaryNumber" : "23",
+            "birthDate" : "1994-02-02",
+            "currentAge" : 26,
+            "birthCity" : "Fergus",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 0\"",
+            "weight" : 187,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "23",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "14:59",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 3,
+              "hits" : 2,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "12:19",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "2:40"
+            }
+          }
+        },
+        "ID8477968" : {
+          "person" : {
+            "id" : 8477968,
+            "fullName" : "Alex Nedeljkovic",
+            "link" : "/api/v1/people/8477968",
+            "firstName" : "Alex",
+            "lastName" : "Nedeljkovic",
+            "primaryNumber" : "39",
+            "birthDate" : "1996-01-07",
+            "currentAge" : 25,
+            "birthCity" : "Parma",
+            "birthStateProvince" : "OH",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 0\"",
+            "weight" : 189,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "G",
+              "name" : "Goalie",
+              "type" : "Goalie",
+              "abbreviation" : "G"
+            }
+          },
+          "jerseyNumber" : "39",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476958" : {
+          "person" : {
+            "id" : 8476958,
+            "fullName" : "Jaccob Slavin",
+            "link" : "/api/v1/people/8476958",
+            "firstName" : "Jaccob",
+            "lastName" : "Slavin",
+            "primaryNumber" : "74",
+            "birthDate" : "1994-05-01",
+            "currentAge" : 26,
+            "birthCity" : "Denver",
+            "birthStateProvince" : "CO",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 3\"",
+            "weight" : 207,
+            "active" : true,
+            "alternateCaptain" : true,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "74",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "25:02",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 2,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "21:32",
+              "powerPlayTimeOnIce" : "0:15",
+              "shortHandedTimeOnIce" : "3:15"
+            }
+          }
+        },
+        "ID8473503" : {
+          "person" : {
+            "id" : 8473503,
+            "fullName" : "James Reimer",
+            "link" : "/api/v1/people/8473503",
+            "firstName" : "James",
+            "lastName" : "Reimer",
+            "primaryNumber" : "47",
+            "birthDate" : "1988-03-15",
+            "currentAge" : 32,
+            "birthCity" : "Morweena",
+            "birthStateProvince" : "MB",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 2\"",
+            "weight" : 220,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "G",
+              "name" : "Goalie",
+              "type" : "Goalie",
+              "abbreviation" : "G"
+            }
+          },
+          "jerseyNumber" : "47",
+          "position" : {
+            "code" : "G",
+            "name" : "Goalie",
+            "type" : "Goalie",
+            "abbreviation" : "G"
+          },
+          "stats" : {
+            "goalieStats" : {
+              "timeOnIce" : "60:00",
+              "assists" : 0,
+              "goals" : 0,
+              "pim" : 0,
+              "shots" : 38,
+              "saves" : 37,
+              "powerPlaySaves" : 5,
+              "shortHandedSaves" : 0,
+              "evenSaves" : 32,
+              "shortHandedShotsAgainst" : 0,
+              "evenShotsAgainst" : 33,
+              "powerPlayShotsAgainst" : 5,
+              "decision" : "W",
+              "savePercentage" : 97.36842105263158,
+              "powerPlaySavePercentage" : 100.0,
+              "evenStrengthSavePercentage" : 96.96969696969697
+            }
+          }
+        },
+        "ID8477845" : {
+          "person" : {
+            "id" : 8477845,
+            "fullName" : "Trevor van Riemsdyk",
+            "link" : "/api/v1/people/8477845",
+            "firstName" : "Trevor",
+            "lastName" : "van Riemsdyk",
+            "primaryNumber" : "57",
+            "birthDate" : "1991-07-24",
+            "currentAge" : 29,
+            "birthCity" : "Middletown",
+            "birthStateProvince" : "NJ",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 2\"",
+            "weight" : 192,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "57",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476882" : {
+          "person" : {
+            "id" : 8476882,
+            "fullName" : "Teuvo Teravainen",
+            "link" : "/api/v1/people/8476882",
+            "firstName" : "Teuvo",
+            "lastName" : "Teravainen",
+            "primaryNumber" : "86",
+            "birthDate" : "1994-09-11",
+            "currentAge" : 26,
+            "birthCity" : "Helsinki",
+            "birthCountry" : "FIN",
+            "nationality" : "FIN",
+            "height" : "5' 11\"",
+            "weight" : 191,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "86",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "16:45",
+              "assists" : 0,
+              "goals" : 1,
+              "shots" : 2,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 3,
+              "evenTimeOnIce" : "12:51",
+              "powerPlayTimeOnIce" : "2:47",
+              "shortHandedTimeOnIce" : "1:07"
+            }
+          }
+        },
+        "ID8476288" : {
+          "person" : {
+            "id" : 8476288,
+            "fullName" : "Ryan Dzingel",
+            "link" : "/api/v1/people/8476288",
+            "firstName" : "Ryan",
+            "lastName" : "Dzingel",
+            "primaryNumber" : "18",
+            "birthDate" : "1992-03-09",
+            "currentAge" : 28,
+            "birthCity" : "Wheaton",
+            "birthStateProvince" : "IL",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 0\"",
+            "weight" : 190,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "18",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476389" : {
+          "person" : {
+            "id" : 8476389,
+            "fullName" : "Vincent Trocheck",
+            "link" : "/api/v1/people/8476389",
+            "firstName" : "Vincent",
+            "lastName" : "Trocheck",
+            "primaryNumber" : "16",
+            "birthDate" : "1993-07-11",
+            "currentAge" : 27,
+            "birthCity" : "Pittsburgh",
+            "birthStateProvince" : "PA",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "5' 10\"",
+            "weight" : 183,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "16",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "18:10",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 52.63,
+              "faceOffWins" : 10,
+              "faceoffTaken" : 19,
+              "takeaways" : 4,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 2,
+              "plusMinus" : 1,
+              "evenTimeOnIce" : "13:53",
+              "powerPlayTimeOnIce" : "3:13",
+              "shortHandedTimeOnIce" : "1:04"
+            }
+          }
+        },
+        "ID8476323" : {
+          "person" : {
+            "id" : 8476323,
+            "fullName" : "Max McCormick",
+            "link" : "/api/v1/people/8476323",
+            "firstName" : "Max",
+            "lastName" : "McCormick",
+            "primaryNumber" : "28",
+            "birthDate" : "1992-05-01",
+            "currentAge" : 28,
+            "birthCity" : "De Pere",
+            "birthStateProvince" : "WI",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "5' 11\"",
+            "weight" : 188,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "28",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8474581" : {
+          "person" : {
+            "id" : 8474581,
+            "fullName" : "Jake Gardiner",
+            "link" : "/api/v1/people/8474581",
+            "firstName" : "Jake",
+            "lastName" : "Gardiner",
+            "primaryNumber" : "51",
+            "birthDate" : "1990-07-04",
+            "currentAge" : 30,
+            "birthCity" : "Minnetonka",
+            "birthStateProvince" : "MN",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 2\"",
+            "weight" : 203,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "51",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "12:00",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 2,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "8:27",
+              "powerPlayTimeOnIce" : "2:52",
+              "shortHandedTimeOnIce" : "0:41"
+            }
+          }
+        },
+        "ID8476462" : {
+          "person" : {
+            "id" : 8476462,
+            "fullName" : "Dougie Hamilton",
+            "link" : "/api/v1/people/8476462",
+            "firstName" : "Dougie",
+            "lastName" : "Hamilton",
+            "primaryNumber" : "19",
+            "birthDate" : "1993-06-17",
+            "currentAge" : 27,
+            "birthCity" : "Toronto",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 6\"",
+            "weight" : 229,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "19",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476341" : {
+          "person" : {
+            "id" : 8476341,
+            "fullName" : "Anton Forsberg",
+            "link" : "/api/v1/people/8476341",
+            "firstName" : "Anton",
+            "lastName" : "Forsberg",
+            "primaryNumber" : "31",
+            "birthDate" : "1992-11-27",
+            "currentAge" : 28,
+            "birthCity" : "Härnösand",
+            "birthCountry" : "SWE",
+            "nationality" : "SWE",
+            "height" : "6' 3\"",
+            "weight" : 192,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "G",
+              "name" : "Goalie",
+              "type" : "Goalie",
+              "abbreviation" : "G"
+            }
+          },
+          "jerseyNumber" : "31",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476441" : {
+          "person" : {
+            "id" : 8476441,
+            "fullName" : "Joel Edmundson",
+            "link" : "/api/v1/people/8476441",
+            "firstName" : "Joel",
+            "lastName" : "Edmundson",
+            "primaryNumber" : "6",
+            "birthDate" : "1993-06-28",
+            "currentAge" : 27,
+            "birthCity" : "Brandon",
+            "birthStateProvince" : "MB",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 4\"",
+            "weight" : 215,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "6",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "22:42",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 4,
+              "hits" : 2,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 4,
+              "plusMinus" : 3,
+              "evenTimeOnIce" : "18:51",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "3:51"
+            }
+          }
+        },
+        "ID8468508" : {
+          "person" : {
+            "id" : 8468508,
+            "fullName" : "Justin Williams",
+            "link" : "/api/v1/people/8468508",
+            "firstName" : "Justin",
+            "lastName" : "Williams",
+            "primaryNumber" : "14",
+            "birthDate" : "1981-10-04",
+            "currentAge" : 39,
+            "birthCity" : "Cobourg",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 1\"",
+            "weight" : 184,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "14",
+          "position" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "14:47",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 100.0,
+              "faceOffWins" : 1,
+              "faceoffTaken" : 1,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : -1,
+              "evenTimeOnIce" : "11:56",
+              "powerPlayTimeOnIce" : "2:47",
+              "shortHandedTimeOnIce" : "0:04"
+            }
+          }
+        },
+        "ID8480830" : {
+          "person" : {
+            "id" : 8480830,
+            "fullName" : "Andrei Svechnikov",
+            "link" : "/api/v1/people/8480830",
+            "firstName" : "Andrei",
+            "lastName" : "Svechnikov",
+            "primaryNumber" : "37",
+            "birthDate" : "2000-03-26",
+            "currentAge" : 20,
+            "birthCity" : "Barnaul",
+            "birthCountry" : "RUS",
+            "nationality" : "RUS",
+            "height" : "6' 2\"",
+            "weight" : 195,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "37",
+          "position" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "15:00",
+              "assists" : 1,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 3,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 2,
+              "evenTimeOnIce" : "12:13",
+              "powerPlayTimeOnIce" : "2:47",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8480039" : {
+          "person" : {
+            "id" : 8480039,
+            "fullName" : "Martin Necas",
+            "link" : "/api/v1/people/8480039",
+            "firstName" : "Martin",
+            "lastName" : "Necas",
+            "primaryNumber" : "88",
+            "birthDate" : "1999-01-15",
+            "currentAge" : 21,
+            "birthCity" : "Nove Mesto na Morave",
+            "birthCountry" : "CZE",
+            "nationality" : "CZE",
+            "height" : "6' 2\"",
+            "weight" : 189,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 12,
+              "name" : "Carolina Hurricanes",
+              "link" : "/api/v1/teams/12"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "88",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "15:06",
+              "assists" : 1,
+              "goals" : 0,
+              "shots" : 3,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 50.0,
+              "faceOffWins" : 1,
+              "faceoffTaken" : 2,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 1,
+              "evenTimeOnIce" : "11:53",
+              "powerPlayTimeOnIce" : "3:13",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        }
+      },
+      "goalies" : [ 8473503 ],
+      "skaters" : [ 8477938, 8476441, 8473533, 8477998, 8468508, 8476389, 8478427, 8475799, 8476934, 8480830, 8479987, 8475222, 8476921, 8474581, 8476958, 8476869, 8476882, 8480039, 8476288, 8476462, 8479402, 8476323, 8476341, 8477968, 8477981, 8477845, 8478056, 8478904 ],
+      "onIce" : [ 8473503, 8474581, 8476921, 8477938, 8479987 ],
+      "onIcePlus" : [ {
+        "playerId" : 8473503,
+        "shiftDuration" : 309,
+        "stamina" : 33
+      }, {
+        "playerId" : 8474581,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8476921,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8477938,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8479987,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      } ],
+      "scratches" : [ 8476288, 8476462, 8479402, 8476323, 8476341, 8477968, 8477981, 8477845, 8478056, 8478904 ],
+      "penaltyBox" : [ {
+        "id" : 8473533,
+        "timeRemaining" : "00:29",
+        "active" : true
+      } ],
+      "coaches" : [ {
+        "person" : {
+          "fullName" : "Rod Brind'Amour",
+          "link" : "/api/v1/people/null"
+        },
+        "position" : {
+          "code" : "HC",
+          "name" : "Head Coach",
+          "type" : "Head Coach",
+          "abbreviation" : "Head Coach"
+        }
+      } ]
+    },
+    "home" : {
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "teamStats" : {
+        "teamSkaterStats" : {
+          "goals" : 1,
+          "pim" : 6,
+          "shots" : 38,
+          "powerPlayPercentage" : "0.0",
+          "powerPlayGoals" : 0.0,
+          "powerPlayOpportunities" : 3.0,
+          "faceOffWinPercentage" : "49.3",
+          "blocked" : 18,
+          "takeaways" : 10,
+          "giveaways" : 11,
+          "hits" : 39
+        }
+      },
+      "players" : {
+        "ID8475735" : {
+          "person" : {
+            "id" : 8475735,
+            "fullName" : "Greg McKegg",
+            "link" : "/api/v1/people/8475735",
+            "firstName" : "Greg",
+            "lastName" : "McKegg",
+            "primaryNumber" : "14",
+            "birthDate" : "1992-06-17",
+            "currentAge" : 28,
+            "birthCity" : "St. Thomas",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 0\"",
+            "weight" : 192,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "14",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "7:00",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 33.33,
+              "faceOffWins" : 2,
+              "faceoffTaken" : 6,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 2,
+              "plusMinus" : -2,
+              "evenTimeOnIce" : "5:05",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "1:55"
+            }
+          }
+        },
+        "ID8475855" : {
+          "person" : {
+            "id" : 8475855,
+            "fullName" : "Jesper Fast",
+            "link" : "/api/v1/people/8475855",
+            "firstName" : "Jesper",
+            "lastName" : "Fast",
+            "primaryNumber" : "17",
+            "birthDate" : "1991-12-02",
+            "currentAge" : 29,
+            "birthCity" : "Nassjo",
+            "birthCountry" : "SWE",
+            "nationality" : "SWE",
+            "height" : "6' 1\"",
+            "weight" : 191,
+            "active" : true,
+            "alternateCaptain" : true,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "17",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8479324" : {
+          "person" : {
+            "id" : 8479324,
+            "fullName" : "Ryan Lindgren",
+            "link" : "/api/v1/people/8479324",
+            "firstName" : "Ryan",
+            "lastName" : "Lindgren",
+            "primaryNumber" : "55",
+            "birthDate" : "1998-02-11",
+            "currentAge" : 22,
+            "birthCity" : "Burnsville",
+            "birthStateProvince" : "MN",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 0\"",
+            "weight" : 191,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "55",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "20:17",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 4,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 2,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "16:50",
+              "powerPlayTimeOnIce" : "0:10",
+              "shortHandedTimeOnIce" : "3:17"
+            }
+          }
+        },
+        "ID8477402" : {
+          "person" : {
+            "id" : 8477402,
+            "fullName" : "Pavel Buchnevich",
+            "link" : "/api/v1/people/8477402",
+            "firstName" : "Pavel",
+            "lastName" : "Buchnevich",
+            "primaryNumber" : "89",
+            "birthDate" : "1995-04-17",
+            "currentAge" : 25,
+            "birthCity" : "Cherepovets",
+            "birthCountry" : "RUS",
+            "nationality" : "RUS",
+            "height" : "6' 3\"",
+            "weight" : 197,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "89",
+          "position" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "20:02",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 3,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 100.0,
+              "faceOffWins" : 1,
+              "faceoffTaken" : 1,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : -2,
+              "evenTimeOnIce" : "16:55",
+              "powerPlayTimeOnIce" : "3:07",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8479027" : {
+          "person" : {
+            "id" : 8479027,
+            "fullName" : "Brandon Crawley",
+            "link" : "/api/v1/people/8479027",
+            "firstName" : "Brandon",
+            "lastName" : "Crawley",
+            "primaryNumber" : "46",
+            "birthDate" : "1997-02-02",
+            "currentAge" : 23,
+            "birthCity" : "Glen Rock",
+            "birthStateProvince" : "NJ",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 1\"",
+            "weight" : 202,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "46",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8477962" : {
+          "person" : {
+            "id" : 8477962,
+            "fullName" : "Brendan Lemieux",
+            "link" : "/api/v1/people/8477962",
+            "firstName" : "Brendan",
+            "lastName" : "Lemieux",
+            "primaryNumber" : "48",
+            "birthDate" : "1996-03-15",
+            "currentAge" : 24,
+            "birthCity" : "Denver",
+            "birthStateProvince" : "CO",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 1\"",
+            "weight" : 213,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "48",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "14:08",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 5,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 2,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "12:25",
+              "powerPlayTimeOnIce" : "0:31",
+              "shortHandedTimeOnIce" : "1:12"
+            }
+          }
+        },
+        "ID8475184" : {
+          "person" : {
+            "id" : 8475184,
+            "fullName" : "Chris Kreider",
+            "link" : "/api/v1/people/8475184",
+            "firstName" : "Chris",
+            "lastName" : "Kreider",
+            "primaryNumber" : "20",
+            "birthDate" : "1991-04-30",
+            "currentAge" : 29,
+            "birthCity" : "Boxford",
+            "birthStateProvince" : "MA",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 3\"",
+            "weight" : 217,
+            "active" : true,
+            "alternateCaptain" : true,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "20",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "17:28",
+              "assists" : 0,
+              "goals" : 1,
+              "shots" : 6,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 2,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 1,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "14:01",
+              "powerPlayTimeOnIce" : "3:27",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8478550" : {
+          "person" : {
+            "id" : 8478550,
+            "fullName" : "Artemi Panarin",
+            "link" : "/api/v1/people/8478550",
+            "firstName" : "Artemi",
+            "lastName" : "Panarin",
+            "primaryNumber" : "10",
+            "birthDate" : "1991-10-30",
+            "currentAge" : 29,
+            "birthCity" : "Korkino",
+            "birthCountry" : "RUS",
+            "nationality" : "RUS",
+            "height" : "5' 11\"",
+            "weight" : 170,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "10",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "22:47",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 5,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 1,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : -2,
+              "evenTimeOnIce" : "19:24",
+              "powerPlayTimeOnIce" : "3:23",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8479323" : {
+          "person" : {
+            "id" : 8479323,
+            "fullName" : "Adam Fox",
+            "link" : "/api/v1/people/8479323",
+            "firstName" : "Adam",
+            "lastName" : "Fox",
+            "primaryNumber" : "23",
+            "birthDate" : "1998-02-17",
+            "currentAge" : 22,
+            "birthCity" : "Jericho",
+            "birthStateProvince" : "NY",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "5' 11\"",
+            "weight" : 181,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "23",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "22:07",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 3,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 3,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "18:30",
+              "powerPlayTimeOnIce" : "2:14",
+              "shortHandedTimeOnIce" : "1:23"
+            }
+          }
+        },
+        "ID8479364" : {
+          "person" : {
+            "id" : 8479364,
+            "fullName" : "Tim Gettinger",
+            "link" : "/api/v1/people/8479364",
+            "firstName" : "Tim",
+            "lastName" : "Gettinger",
+            "primaryNumber" : "26",
+            "birthDate" : "1998-04-14",
+            "currentAge" : 22,
+            "birthCity" : "Cleveland",
+            "birthStateProvince" : "OH",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 6\"",
+            "weight" : 218,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "26",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476396" : {
+          "person" : {
+            "id" : 8476396,
+            "fullName" : "Steven Fogarty",
+            "link" : "/api/v1/people/8476396",
+            "firstName" : "Steven",
+            "lastName" : "Fogarty",
+            "primaryNumber" : "29",
+            "birthDate" : "1993-04-19",
+            "currentAge" : 27,
+            "birthCity" : "Chambersburg",
+            "birthStateProvince" : "PA",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 3\"",
+            "weight" : 208,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "29",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8478178" : {
+          "person" : {
+            "id" : 8478178,
+            "fullName" : "Darren Raddysh",
+            "link" : "/api/v1/people/8478178",
+            "firstName" : "Darren",
+            "lastName" : "Raddysh",
+            "primaryNumber" : "44",
+            "birthDate" : "1996-02-28",
+            "currentAge" : 24,
+            "birthCity" : "Toronto",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 1\"",
+            "weight" : 200,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "44",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8474090" : {
+          "person" : {
+            "id" : 8474090,
+            "fullName" : "Brendan Smith",
+            "link" : "/api/v1/people/8474090",
+            "firstName" : "Brendan",
+            "lastName" : "Smith",
+            "primaryNumber" : "42",
+            "birthDate" : "1989-02-08",
+            "currentAge" : 31,
+            "birthCity" : "Mimico",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 2\"",
+            "weight" : 200,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "42",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "18:27",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 9,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 2,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 1,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 1,
+              "evenTimeOnIce" : "16:06",
+              "powerPlayTimeOnIce" : "0:41",
+              "shortHandedTimeOnIce" : "1:40"
+            }
+          }
+        },
+        "ID8481554" : {
+          "person" : {
+            "id" : 8481554,
+            "fullName" : "Kaapo Kakko",
+            "link" : "/api/v1/people/8481554",
+            "firstName" : "Kaapo",
+            "lastName" : "Kakko",
+            "primaryNumber" : "24",
+            "birthDate" : "2001-02-13",
+            "currentAge" : 19,
+            "birthCity" : "Turku",
+            "birthCountry" : "FIN",
+            "nationality" : "FIN",
+            "height" : "6' 3\"",
+            "weight" : 199,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "24",
+          "position" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "14:42",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 1,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 1,
+              "evenTimeOnIce" : "13:05",
+              "powerPlayTimeOnIce" : "1:37",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8480382" : {
+          "person" : {
+            "id" : 8480382,
+            "fullName" : "Alexandar Georgiev",
+            "link" : "/api/v1/people/8480382",
+            "firstName" : "Alexandar",
+            "lastName" : "Georgiev",
+            "primaryNumber" : "40",
+            "birthDate" : "1996-02-10",
+            "currentAge" : 24,
+            "birthCity" : "Ruse",
+            "birthCountry" : "BGR",
+            "nationality" : "RUS",
+            "height" : "6' 1\"",
+            "weight" : 178,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "G",
+              "name" : "Goalie",
+              "type" : "Goalie",
+              "abbreviation" : "G"
+            }
+          },
+          "jerseyNumber" : "40",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8471686" : {
+          "person" : {
+            "id" : 8471686,
+            "fullName" : "Marc Staal",
+            "link" : "/api/v1/people/8471686",
+            "firstName" : "Marc",
+            "lastName" : "Staal",
+            "primaryNumber" : "18",
+            "birthDate" : "1987-01-13",
+            "currentAge" : 34,
+            "birthCity" : "Thunder Bay",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 4\"",
+            "weight" : 209,
+            "active" : true,
+            "alternateCaptain" : true,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "18",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "13:28",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : -2,
+              "evenTimeOnIce" : "10:17",
+              "powerPlayTimeOnIce" : "0:04",
+              "shortHandedTimeOnIce" : "3:07"
+            }
+          }
+        },
+        "ID8476858" : {
+          "person" : {
+            "id" : 8476858,
+            "fullName" : "Phillip Di Giuseppe",
+            "link" : "/api/v1/people/8476858",
+            "firstName" : "Phillip",
+            "lastName" : "Di Giuseppe",
+            "primaryNumber" : "33",
+            "birthDate" : "1993-10-09",
+            "currentAge" : 27,
+            "birthCity" : "Toronto",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 0\"",
+            "weight" : 193,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "L",
+              "name" : "Left Wing",
+              "type" : "Forward",
+              "abbreviation" : "LW"
+            }
+          },
+          "jerseyNumber" : "33",
+          "position" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "7:50",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 1,
+              "hits" : 2,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : -2,
+              "evenTimeOnIce" : "7:01",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "0:49"
+            }
+          }
+        },
+        "ID8479968" : {
+          "person" : {
+            "id" : 8479968,
+            "fullName" : "Vinni Lettieri",
+            "link" : "/api/v1/people/8479968",
+            "firstName" : "Vinni",
+            "lastName" : "Lettieri",
+            "primaryNumber" : "95",
+            "birthDate" : "1995-02-06",
+            "currentAge" : 25,
+            "birthCity" : "Excelsior",
+            "birthStateProvince" : "MN",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "5' 11\"",
+            "weight" : 185,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "95",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476458" : {
+          "person" : {
+            "id" : 8476458,
+            "fullName" : "Ryan Strome",
+            "link" : "/api/v1/people/8476458",
+            "firstName" : "Ryan",
+            "lastName" : "Strome",
+            "primaryNumber" : "16",
+            "birthDate" : "1993-07-11",
+            "currentAge" : 27,
+            "birthCity" : "Mississauga",
+            "birthStateProvince" : "ON",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 1\"",
+            "weight" : 193,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "16",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "17:48",
+              "assists" : 1,
+              "goals" : 0,
+              "shots" : 3,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 47.83,
+              "faceOffWins" : 11,
+              "faceoffTaken" : 23,
+              "takeaways" : 1,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "12:19",
+              "powerPlayTimeOnIce" : "2:43",
+              "shortHandedTimeOnIce" : "2:46"
+            }
+          }
+        },
+        "ID8479328" : {
+          "person" : {
+            "id" : 8479328,
+            "fullName" : "Julien Gauthier",
+            "link" : "/api/v1/people/8479328",
+            "firstName" : "Julien",
+            "lastName" : "Gauthier",
+            "primaryNumber" : "12",
+            "birthDate" : "1997-10-15",
+            "currentAge" : 23,
+            "birthCity" : "Pointe-aux-Trembles",
+            "birthStateProvince" : "QC",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 4\"",
+            "weight" : 227,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "12",
+          "position" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "3:53",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : -1,
+              "evenTimeOnIce" : "3:53",
+              "powerPlayTimeOnIce" : "0:00",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8476459" : {
+          "person" : {
+            "id" : 8476459,
+            "fullName" : "Mika Zibanejad",
+            "link" : "/api/v1/people/8476459",
+            "firstName" : "Mika",
+            "lastName" : "Zibanejad",
+            "primaryNumber" : "93",
+            "birthDate" : "1993-04-18",
+            "currentAge" : 27,
+            "birthCity" : "Huddinge",
+            "birthCountry" : "SWE",
+            "nationality" : "SWE",
+            "height" : "6' 2\"",
+            "weight" : 208,
+            "active" : true,
+            "alternateCaptain" : true,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "93",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "23:16",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 4,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 63.16,
+              "faceOffWins" : 12,
+              "faceoffTaken" : 19,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 0,
+              "plusMinus" : -2,
+              "evenTimeOnIce" : "18:04",
+              "powerPlayTimeOnIce" : "3:23",
+              "shortHandedTimeOnIce" : "1:49"
+            }
+          }
+        },
+        "ID8477950" : {
+          "person" : {
+            "id" : 8477950,
+            "fullName" : "Tony DeAngelo",
+            "link" : "/api/v1/people/8477950",
+            "firstName" : "Tony",
+            "lastName" : "DeAngelo",
+            "primaryNumber" : "77",
+            "birthDate" : "1995-10-24",
+            "currentAge" : 25,
+            "birthCity" : "Sewell",
+            "birthStateProvince" : "NJ",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "5' 11\"",
+            "weight" : 180,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "77",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "19:16",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 2,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : -4,
+              "evenTimeOnIce" : "16:40",
+              "powerPlayTimeOnIce" : "2:36",
+              "shortHandedTimeOnIce" : "0:00"
+            }
+          }
+        },
+        "ID8478048" : {
+          "person" : {
+            "id" : 8478048,
+            "fullName" : "Igor Shesterkin",
+            "link" : "/api/v1/people/8478048",
+            "firstName" : "Igor",
+            "lastName" : "Shesterkin",
+            "primaryNumber" : "31",
+            "birthDate" : "1995-12-30",
+            "currentAge" : 25,
+            "birthCity" : "Moscow",
+            "birthCountry" : "RUS",
+            "nationality" : "RUS",
+            "height" : "6' 2\"",
+            "weight" : 182,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "G",
+              "name" : "Goalie",
+              "type" : "Goalie",
+              "abbreviation" : "G"
+            }
+          },
+          "jerseyNumber" : "31",
+          "position" : {
+            "code" : "G",
+            "name" : "Goalie",
+            "type" : "Goalie",
+            "abbreviation" : "G"
+          },
+          "stats" : {
+            "goalieStats" : {
+              "timeOnIce" : "58:08",
+              "assists" : 0,
+              "goals" : 0,
+              "pim" : 0,
+              "shots" : 30,
+              "saves" : 27,
+              "powerPlaySaves" : 3,
+              "shortHandedSaves" : 3,
+              "evenSaves" : 21,
+              "shortHandedShotsAgainst" : 3,
+              "evenShotsAgainst" : 24,
+              "powerPlayShotsAgainst" : 3,
+              "decision" : "L",
+              "savePercentage" : 90.0,
+              "powerPlaySavePercentage" : 100.0,
+              "shortHandedSavePercentage" : 100.0,
+              "evenStrengthSavePercentage" : 87.5
+            }
+          }
+        },
+        "ID8476982" : {
+          "person" : {
+            "id" : 8476982,
+            "fullName" : "Danny O'Regan",
+            "link" : "/api/v1/people/8476982",
+            "firstName" : "Danny",
+            "lastName" : "O'Regan",
+            "primaryNumber" : "65",
+            "birthDate" : "1994-01-30",
+            "currentAge" : 26,
+            "birthCity" : "Berlin",
+            "birthCountry" : "DEU",
+            "nationality" : "USA",
+            "height" : "5' 10\"",
+            "weight" : 180,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "65",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8480833" : {
+          "person" : {
+            "id" : 8480833,
+            "fullName" : "Vitali Kravtsov",
+            "link" : "/api/v1/people/8480833",
+            "firstName" : "Vitali",
+            "lastName" : "Kravtsov",
+            "primaryNumber" : "74",
+            "birthDate" : "1999-12-23",
+            "currentAge" : 21,
+            "birthCity" : "Vladivostok",
+            "birthCountry" : "RUS",
+            "nationality" : "RUS",
+            "height" : "6' 3\"",
+            "weight" : 189,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "R",
+              "name" : "Right Wing",
+              "type" : "Forward",
+              "abbreviation" : "RW"
+            }
+          },
+          "jerseyNumber" : "74",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8476885" : {
+          "person" : {
+            "id" : 8476885,
+            "fullName" : "Jacob Trouba",
+            "link" : "/api/v1/people/8476885",
+            "firstName" : "Jacob",
+            "lastName" : "Trouba",
+            "primaryNumber" : "8",
+            "birthDate" : "1994-02-26",
+            "currentAge" : 26,
+            "birthCity" : "Rochester",
+            "birthStateProvince" : "MI",
+            "birthCountry" : "USA",
+            "nationality" : "USA",
+            "height" : "6' 3\"",
+            "weight" : 209,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "R",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "8",
+          "position" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "22:56",
+              "assists" : 1,
+              "goals" : 0,
+              "shots" : 6,
+              "hits" : 6,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffWins" : 0,
+              "faceoffTaken" : 0,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 3,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "18:19",
+              "powerPlayTimeOnIce" : "2:04",
+              "shortHandedTimeOnIce" : "2:33"
+            }
+          }
+        },
+        "ID8479333" : {
+          "person" : {
+            "id" : 8479333,
+            "fullName" : "Libor Hajek",
+            "link" : "/api/v1/people/8479333",
+            "firstName" : "Libor",
+            "lastName" : "Hajek",
+            "primaryNumber" : "25",
+            "birthDate" : "1998-02-04",
+            "currentAge" : 22,
+            "birthCity" : "Smrcek",
+            "birthCountry" : "CZE",
+            "nationality" : "CZE",
+            "height" : "6' 2\"",
+            "weight" : 203,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : true,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "D",
+              "name" : "Defenseman",
+              "type" : "Defenseman",
+              "abbreviation" : "D"
+            }
+          },
+          "jerseyNumber" : "25",
+          "position" : {
+            "code" : "N/A",
+            "name" : "Unknown",
+            "type" : "Unknown",
+            "abbreviation" : "N/A"
+          },
+          "stats" : { }
+        },
+        "ID8479353" : {
+          "person" : {
+            "id" : 8479353,
+            "fullName" : "Brett Howden",
+            "link" : "/api/v1/people/8479353",
+            "firstName" : "Brett",
+            "lastName" : "Howden",
+            "primaryNumber" : "21",
+            "birthDate" : "1998-03-29",
+            "currentAge" : 22,
+            "birthCity" : "Calgary",
+            "birthStateProvince" : "AB",
+            "birthCountry" : "CAN",
+            "nationality" : "CAN",
+            "height" : "6' 3\"",
+            "weight" : 197,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "21",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "14:56",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 0,
+              "hits" : 1,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 0,
+              "faceOffPct" : 42.86,
+              "faceOffWins" : 3,
+              "faceoffTaken" : 7,
+              "takeaways" : 0,
+              "giveaways" : 1,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : -1,
+              "evenTimeOnIce" : "11:50",
+              "powerPlayTimeOnIce" : "0:31",
+              "shortHandedTimeOnIce" : "2:35"
+            }
+          }
+        },
+        "ID8480078" : {
+          "person" : {
+            "id" : 8480078,
+            "fullName" : "Filip Chytil",
+            "link" : "/api/v1/people/8480078",
+            "firstName" : "Filip",
+            "lastName" : "Chytil",
+            "primaryNumber" : "72",
+            "birthDate" : "1999-09-05",
+            "currentAge" : 21,
+            "birthCity" : "Kromeriz",
+            "birthCountry" : "CZE",
+            "nationality" : "CZE",
+            "height" : "6' 2\"",
+            "weight" : 206,
+            "active" : true,
+            "alternateCaptain" : false,
+            "captain" : false,
+            "rookie" : false,
+            "shootsCatches" : "L",
+            "rosterStatus" : "Y",
+            "currentTeam" : {
+              "id" : 3,
+              "name" : "New York Rangers",
+              "link" : "/api/v1/teams/3"
+            },
+            "primaryPosition" : {
+              "code" : "C",
+              "name" : "Center",
+              "type" : "Forward",
+              "abbreviation" : "C"
+            }
+          },
+          "jerseyNumber" : "72",
+          "position" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          },
+          "stats" : {
+            "skaterStats" : {
+              "timeOnIce" : "15:31",
+              "assists" : 0,
+              "goals" : 0,
+              "shots" : 4,
+              "hits" : 0,
+              "powerPlayGoals" : 0,
+              "powerPlayAssists" : 0,
+              "penaltyMinutes" : 2,
+              "faceOffPct" : 36.36,
+              "faceOffWins" : 4,
+              "faceoffTaken" : 11,
+              "takeaways" : 3,
+              "giveaways" : 0,
+              "shortHandedGoals" : 0,
+              "shortHandedAssists" : 0,
+              "blocked" : 1,
+              "plusMinus" : 0,
+              "evenTimeOnIce" : "12:33",
+              "powerPlayTimeOnIce" : "2:04",
+              "shortHandedTimeOnIce" : "0:54"
+            }
+          }
+        }
+      },
+      "goalies" : [ 8478048 ],
+      "skaters" : [ 8476885, 8478550, 8479328, 8475735, 8476458, 8471686, 8475184, 8479353, 8479323, 8481554, 8476858, 8474090, 8477962, 8479324, 8480078, 8477950, 8477402, 8476459, 8475855, 8479333, 8479364, 8476396, 8480382, 8478178, 8479027, 8476982, 8480833, 8479968 ],
+      "onIce" : [ 8474090, 8476885, 8477962, 8478048, 8479353, 8480078 ],
+      "onIcePlus" : [ {
+        "playerId" : 8474090,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8476885,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8477962,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8478048,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8479353,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      }, {
+        "playerId" : 8480078,
+        "shiftDuration" : 31,
+        "stamina" : 66
+      } ],
+      "scratches" : [ 8475855, 8479333, 8479364, 8476396, 8480382, 8478178, 8479027, 8476982, 8480833, 8479968 ],
+      "penaltyBox" : [ ],
+      "coaches" : [ {
+        "person" : {
+          "fullName" : "David Quinn",
+          "link" : "/api/v1/people/null"
+        },
+        "position" : {
+          "code" : "HC",
+          "name" : "Head Coach",
+          "type" : "Head Coach",
+          "abbreviation" : "Head Coach"
+        }
+      } ]
+    }
+  },
+  "officials" : [ {
+    "official" : {
+      "id" : 2332,
+      "fullName" : "Wes McCauley",
+      "link" : "/api/v1/people/2332"
+    },
+    "officialType" : "Referee"
+  }, {
+    "official" : {
+      "id" : 4600,
+      "fullName" : "Francis Charron",
+      "link" : "/api/v1/people/4600"
+    },
+    "officialType" : "Referee"
+  }, {
+    "official" : {
+      "id" : 2490,
+      "fullName" : "Frederick L'Ecuyer",
+      "link" : "/api/v1/people/2490"
+    },
+    "officialType" : "Referee"
+  }, {
+    "official" : {
+      "id" : 2451,
+      "fullName" : "Derek Nansen",
+      "link" : "/api/v1/people/2451"
+    },
+    "officialType" : "Linesman"
+  }, {
+    "official" : {
+      "id" : 2300,
+      "fullName" : "Derek Amell",
+      "link" : "/api/v1/people/2300"
+    },
+    "officialType" : "Linesman"
+  }, {
+    "official" : {
+      "id" : 4620,
+      "fullName" : "Matt MacPherson",
+      "link" : "/api/v1/people/4620"
+    },
+    "officialType" : "Linesman"
+  } ]
+}

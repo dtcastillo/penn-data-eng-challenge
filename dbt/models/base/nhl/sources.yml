@@ -1,0 +1,16 @@
+version: 2
+sources:
+- loader: makefile pretending to be some larger system
+  schema: public
+  name: nhl
+  tables:
+    - name: game_stats
+      description: Player stats from a game
+      columns:
+        - name: player_person_id
+        - name: side
+        - name: player_person_fullName 
+        - name: player_person_currentTeam_name 
+        - name: player_stats_skaterStats_assists 
+        - name: player_stats_skaterStats_goals 
+
