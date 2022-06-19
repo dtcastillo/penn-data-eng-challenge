@@ -1,0 +1,650 @@
+{
+    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2022. All Rights Reserved.",
+    "totalItems": 12,
+    "totalEvents": 0,
+    "totalGames": 12,
+    "totalMatches": 0,
+    "wait": 10,
+    "dates": [
+        {
+            "date": "2020-08-04",
+            "totalItems": 6,
+            "totalEvents": 0,
+            "totalGames": 6,
+            "totalMatches": 0,
+            "games": [
+                {
+                    "gamePk": 2019030042,
+                    "link": "/api/v1/game/2019030042/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-04T16:00:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 13,
+                                "name": "Florida Panthers",
+                                "link": "/api/v1/teams/13"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 0,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 2,
+                                "name": "New York Islanders",
+                                "link": "/api/v1/teams/2"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "name": "Scotiabank Arena",
+                        "link": "/api/v1/venues/null"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030042/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030072,
+                    "link": "/api/v1/game/2019030072/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-04T18:30:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 53,
+                                "name": "Arizona Coyotes",
+                                "link": "/api/v1/teams/53"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 18,
+                                "name": "Nashville Predators",
+                                "link": "/api/v1/teams/18"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 5100,
+                        "name": "Rogers Place",
+                        "link": "/api/v1/venues/5100"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030072/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030052,
+                    "link": "/api/v1/game/2019030052/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-04T20:00:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 29,
+                                "name": "Columbus Blue Jackets",
+                                "link": "/api/v1/teams/29"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 10,
+                                "name": "Toronto Maple Leafs",
+                                "link": "/api/v1/teams/10"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "name": "Scotiabank Arena",
+                        "link": "/api/v1/venues/null"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030052/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030093,
+                    "link": "/api/v1/game/2019030093/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-04T22:45:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 6,
+                            "team": {
+                                "id": 20,
+                                "name": "Calgary Flames",
+                                "link": "/api/v1/teams/20"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 52,
+                                "name": "Winnipeg Jets",
+                                "link": "/api/v1/teams/52"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 5100,
+                        "name": "Rogers Place",
+                        "link": "/api/v1/venues/5100"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030093/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030033,
+                    "link": "/api/v1/game/2019030033/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-05T00:00:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 0,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 12,
+                                "name": "Carolina Hurricanes",
+                                "link": "/api/v1/teams/12"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 3,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 3,
+                                "name": "New York Rangers",
+                                "link": "/api/v1/teams/3"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "name": "Scotiabank Arena",
+                        "link": "/api/v1/venues/null"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030033/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030082,
+                    "link": "/api/v1/game/2019030082/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-05T02:45:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 30,
+                                "name": "Minnesota Wild",
+                                "link": "/api/v1/teams/30"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 23,
+                                "name": "Vancouver Canucks",
+                                "link": "/api/v1/teams/23"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 5100,
+                        "name": "Rogers Place",
+                        "link": "/api/v1/venues/5100"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030082/content"
+                    }
+                }
+            ],
+            "events": [],
+            "matches": []
+        },
+        {
+            "date": "2020-08-05",
+            "totalItems": 6,
+            "totalEvents": 0,
+            "totalGames": 6,
+            "totalMatches": 0,
+            "games": [
+                {
+                    "gamePk": 2019030043,
+                    "link": "/api/v1/game/2019030043/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-05T16:00:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 2,
+                                "name": "New York Islanders",
+                                "link": "/api/v1/teams/2"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 13,
+                                "name": "Florida Panthers",
+                                "link": "/api/v1/teams/13"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "name": "Scotiabank Arena",
+                        "link": "/api/v1/venues/null"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030043/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030073,
+                    "link": "/api/v1/game/2019030073/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-05T18:30:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 18,
+                                "name": "Nashville Predators",
+                                "link": "/api/v1/teams/18"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 53,
+                                "name": "Arizona Coyotes",
+                                "link": "/api/v1/teams/53"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 5100,
+                        "name": "Rogers Place",
+                        "link": "/api/v1/venues/5100"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030073/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030003,
+                    "link": "/api/v1/game/2019030003/feed/live",
+                    "gameType": "R",
+                    "season": "20192020",
+                    "gameDate": "2020-08-05T20:00:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 0,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 14,
+                                "name": "Tampa Bay Lightning",
+                                "link": "/api/v1/teams/14"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 6,
+                                "name": "Boston Bruins",
+                                "link": "/api/v1/teams/6"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "name": "Scotiabank Arena",
+                        "link": "/api/v1/venues/null"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030003/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030013,
+                    "link": "/api/v1/game/2019030013/feed/live",
+                    "gameType": "R",
+                    "season": "20192020",
+                    "gameDate": "2020-08-05T22:30:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 0,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 21,
+                                "name": "Colorado Avalanche",
+                                "link": "/api/v1/teams/21"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 25,
+                                "name": "Dallas Stars",
+                                "link": "/api/v1/teams/25"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 5100,
+                        "name": "Rogers Place",
+                        "link": "/api/v1/venues/5100"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030013/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030023,
+                    "link": "/api/v1/game/2019030023/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-06T00:00:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 5,
+                                "name": "Pittsburgh Penguins",
+                                "link": "/api/v1/teams/5"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 8,
+                                "name": "Montréal Canadiens",
+                                "link": "/api/v1/teams/8"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "name": "Scotiabank Arena",
+                        "link": "/api/v1/venues/null"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030023/content"
+                    }
+                },
+                {
+                    "gamePk": 2019030063,
+                    "link": "/api/v1/game/2019030063/feed/live",
+                    "gameType": "P",
+                    "season": "20192020",
+                    "gameDate": "2020-08-06T02:30:00Z",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "7",
+                        "detailedState": "Final",
+                        "statusCode": "7",
+                        "startTimeTBD": false
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 2,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 22,
+                                "name": "Edmonton Oilers",
+                                "link": "/api/v1/teams/22"
+                            }
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 1,
+                                "ot": 0,
+                                "type": "league"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 16,
+                                "name": "Chicago Blackhawks",
+                                "link": "/api/v1/teams/16"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 5100,
+                        "name": "Rogers Place",
+                        "link": "/api/v1/venues/5100"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/2019030063/content"
+                    }
+                }
+            ],
+            "events": [],
+            "matches": []
+        }
+    ]
+}

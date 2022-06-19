@@ -63,14 +63,13 @@ class NHLApi:
         
         return response
 
-    def boxscore(self, game_id) -> dict:
+    def boxscore(self, game_id:int) -> dict:
         """
         Fetches box score stats and other metadata from boxscore endpoint for specific game_id
 
         :param game_id
         :return: returns boxscore json response as dict
         """
-
         logger.info('Fetching boxscore for game {}...'.format(game_id))
         
         url = self._url(f'game/{game_id}/boxscore')
@@ -99,7 +98,7 @@ class StorageKey:
         return f'{self.game_id}.csv'
 
 class Storage:
-    def __init__(self, endpoint_url, sig_version='s3v4', num_retries=5):
+    def __init__(self, endpoint_url: str, sig_version: str = 's3v4', num_retries: int = 5):
         self.endpoint_url = endpoint_url
         self.sig_version = sig_version
         self.num_retries = num_retries
@@ -107,13 +106,13 @@ class Storage:
         config = Config(signature_version = self.sig_version)
         self._s3_client = boto3.client('s3', config = config, endpoint_url = endpoint_url)
 
-    def store_game(self, bucket, key: StorageKey, game_data: dict) -> None:
+    def store_game(self, bucket:str, key: StorageKey, game_data: dict) -> None:
         """
         Uploads file object of game data to s3 bucket using key
         
         :param bucket: bucket to upload to
         :param key: s3 key for file
-        :game_data bytes file object of game data
+        :param game_data: bytes file object of game data
         """
 
         for _ in range(self.num_retries):
@@ -141,7 +140,7 @@ class Crawler:
         
         self.storage = Storage(os.environ.get('S3_ENDPOINT_URL'))
 
-    def get_games(self, start_date, end_date) -> List:
+    def get_games(self, start_date: datetime, end_date: datetime) -> List:
         """
         Fetches all nhl games played (game ids/pks) between start_date and end_date 
         
@@ -190,12 +189,12 @@ class Crawler:
 
         :return: list of all full field names
         """
-
         p_fields = self._gen_player_fields()
         s_fields = self._gen_stats_fields()
         return p_fields + s_fields
 
-    def _convert_to_df(self, players, fields, side, max_level):
+    def _convert_to_df(self, players: dict, fields: List[str], 
+                       side: str, max_level: int) -> pd.DataFrame:
         """
         Converts semi-structered dict to dataframe with fields of interest
 
@@ -225,7 +224,7 @@ class Crawler:
             logger.error('Failed to convert to df with error {}'.format(str(exp)))
             raise exp
 
-    def _df_to_fileobj(self, df, encoding='utf-8'):
+    def _df_to_fileobj(self, df: pd.DataFrame, encoding: str = 'utf-8') -> BytesIO:
         """
         Converts df to csv bytes file object in memory
         
@@ -245,7 +244,8 @@ class Crawler:
             logger.error('Failed to convert df to file object with error: {}'.format(str(exp)))
             raise exp
 
-    def game_fetch_upload(self, game_pk, fields, max_level, bucket):
+    def game_fetch_upload(self, game_pk: int, fields: List[str], 
+                          max_level: int, bucket: str):
         """
         Fetches nhl game data for specific game id/pk from api, grabs only 
         fields of interest and uploads to s3
@@ -283,7 +283,8 @@ class Crawler:
         except:
             pass
 
-    def crawl(self, bucket, start_date, end_date, max_level=3, max_workers=3) -> None:
+    def crawl(self, bucket, start_date: datetime, end_date: datetime, 
+              max_level:int = 3, max_workers:int = 3) -> None:
         """
         Crawls all nhl game data between start_date and end_date and uploads to s3 in
         individual files. Multi-threaded (thread per game).
