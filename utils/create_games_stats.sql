@@ -5,5 +5,7 @@ player_person_currentTeam_name varchar(50),
 player_person_fullName varchar(50),
 player_stats_skaterStats_assists float8,
 player_stats_skaterStats_goals float8,
-side varchar(50)
+side varchar(50),
+game_id int,
+insert_timestamp timestamp
 )
