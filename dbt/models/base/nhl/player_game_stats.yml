@@ -1,0 +1,36 @@
+version: 2
+models:
+  - name: player_game_stats
+    description: Stats for at game, player level
+    columns:
+      - name: player_game_stats_key
+        description: Unique id for table (combination of game_id, nhl_player_id)
+        tests:
+          - not_null
+          - unique
+      - name: game_id
+        description: Unique id for game
+        tests:
+          - not_null
+      - name: nhl_player_id
+        description: Unique id for identifying player
+        tests:
+          - not_null
+      - name: side
+        description: home or away
+      - name: full_name
+        description: full name of player
+        tests:
+          - not_null
+      - name: game_team_name
+        description: Current team name
+        tests:
+          - not_null
+      - name: stats_assists
+        description: Assits for player in game
+        tests:
+          - not_null
+      - name: stats_goals
+        description: Goals for player in game
+        tests:
+          - not_null

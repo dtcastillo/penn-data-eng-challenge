@@ -30,21 +30,28 @@ run_sql: catalog_data
 	  $$(basename $(PWD))_db_1 \
 	  psql -h db -U postgres -f s3_data/load_data.sql
 
+dbt_deps:
+	docker run --rm \
+	  --network host \
+	  -v $(PWD)/dbt:/usr/app \
+	  -v $(PWD)/.dbt:/root/.dbt \
+	  fishtownanalytics/dbt:1.0.0 deps
+
 dbt_run:
 	docker run --rm \
 	  --network host \
 	  -v $(PWD)/dbt:/usr/app \
 	  -v $(PWD)/.dbt:/root/.dbt \
-	  fishtownanalytics/dbt:0.17.2 run
+	  fishtownanalytics/dbt:1.0.0 run
 
 dbt_test:
 	docker run --rm \
 	  --network host \
 	  -v $(PWD)/dbt:/usr/app \
 	  -v $(PWD)/.dbt:/root/.dbt \
-	  fishtownanalytics/dbt:0.17.2 test
+	  fishtownanalytics/dbt:1.0.0 test
 
-step2: run_sql dbt_run dbt_test
+step2: run_sql dbt_deps dbt_run dbt_test
 
 points_leaders:
 	docker run --rm  \
