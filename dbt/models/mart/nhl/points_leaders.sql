@@ -2,7 +2,8 @@ with players as (
     select 
         *,
         rank() over (partition by team_name order by points desc) as rk
-    from {{ ref('nhl_players') }})
+    from {{ ref('nhl_players') }}
+)
 
 select 
     team_name,
