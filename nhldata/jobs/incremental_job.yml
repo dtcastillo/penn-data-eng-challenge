@@ -1,0 +1,17 @@
+api_host: https://statsapi.web.nhl.com/api/
+api_version: v1
+fields:
+  player:
+    - id
+    - currentTeam.name
+    - fullName
+  skater_stats:
+    - assists
+    - goals
+prefixes:
+  player: person.
+  stats: stats.skaterStats.
+max_level: 3
+lookback_days: 7
+s3_bucket: data-bucket
+max_workers: 3

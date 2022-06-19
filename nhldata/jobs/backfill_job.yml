@@ -1,0 +1,19 @@
+api_host: https://statsapi.web.nhl.com/api/
+api_version: v1
+fields:
+  player:
+    - id
+    - currentTeam.name
+    - fullName
+  skater_stats:
+    - assists
+    - goals
+prefixes:
+  player: person.
+  stats: stats.skaterStats.
+max_level: 3
+backfill: True
+start_date: '2020-08-04'
+end_date: '2020-08-05'
+s3_bucket: data-bucket
+max_workers: 3
