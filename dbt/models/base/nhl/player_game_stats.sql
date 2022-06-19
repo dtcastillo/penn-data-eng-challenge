@@ -6,6 +6,7 @@ with game_stats as (
 )
 
 select
+    {{ dbt_utils.surrogate_key(['game_id', 'player_person_id']) }} as player_game_stats_key,
     game_id,
     player_person_id as nhl_player_id,
     side,
