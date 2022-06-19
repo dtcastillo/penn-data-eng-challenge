@@ -30,5 +30,4 @@ services:
       AWS_ACCESS_KEY_ID: accesskey
       AWS_SECRET_ACCESS_KEY: secretkey
       AWS_DEFAULT_REGION: us-east-1
-      DEST_BUCKET: data-bucket
 

@@ -1,10 +1,8 @@
 
 .PHONY: init test step1 step2 catalog_data run_sql dbt_run dbt_test
 
-
 init:
-	pip install -r requirements.txt
-	pip install -r test-requirements.txt
+	poetry install
 
 test:
 	pytest -vv
@@ -24,7 +22,7 @@ step1: down clean mkbucket
 #--- part two
 catalog_data:
 	[ -f s3_data/load_data.sql ] && rm s3_data/load_data.sql; \
-	  find s3_data/data-bucket -name "*.csv" -exec echo "\copy game_stats from '{}' WITH (FORMAT csv, HEADER);" \; >> s3_data/load_data.sql
+	  find s3_data/data-bucket -name "*.csv" -exec echo "\copy game_stats from '{}/xl.meta' WITH (FORMAT csv, HEADER);" \; >> s3_data/load_data.sql
 
 run_sql: catalog_data 
 	docker exec \
@@ -54,6 +52,4 @@ points_leaders:
 	  -e PGPASSWORD=password \
 	  --entrypoint psql \
 	  postgres:12-alpine \
-	  -h localhost -U postgres -c "select * from points_leaders order by points limit 10;"
-	
-
+	  -h localhost -U postgres -c "select * from points_leaders order by points desc limit 10;"
