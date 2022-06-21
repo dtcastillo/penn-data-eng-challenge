@@ -9,6 +9,10 @@ API_VERSION = 'v1'
 
 TEST_RESOURCES = './tests/resources'
 
+def save_json(json, name):
+    with open('{}/{}'.format(TEST_RESOURCES, name), 'w', encoding='utf-8') as f:
+        json.dump(json, f, ensure_ascii=False, indent=4)
+
 def test_schedule():
     start_date = datetime(2020, 8, 4)
     end_date = datetime(2020, 8, 5)
